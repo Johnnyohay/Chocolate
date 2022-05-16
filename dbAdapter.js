@@ -13,4 +13,16 @@ const insertDB = function(err, db) {
     });
   }
 
-MongoClient.connect(url, insertDB);
+//MongoClient.connect(url, insertDB);
+
+const findDoc = function(err, db) {
+    if (err) throw err;
+    var dbo = db.db("Chocolate");
+    dbo.collection("Product").findOne({name:"cookie"}, function(err, result) {
+      if (err) throw err;
+      console.log(result.price);
+      db.close();
+    });
+
+}
+MongoClient.connect(url, findDoc);
