@@ -1,0 +1,25 @@
+{
+  "name": "practicedb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dbAdapter.js",
+  "dependencies": {
+    "git": "^0.1.5",
+    "mongodb": "^4.6.0",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnnyohay/Chocolate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnnyohay/Chocolate/issues"
+  },
+  "homepage": "https://github.com/Johnnyohay/Chocolate#readme"
+}
